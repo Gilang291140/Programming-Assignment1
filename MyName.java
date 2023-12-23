@@ -30,7 +30,7 @@ public class MyName  {
        
       String lowercasedWords = name.toLowerCase();
       // Test case
-      // * System.out.println("Huruf yang udah di lowercase " + lowercasedWords);
+      System.out.println("Huruf yang udah di lowercase " + lowercasedWords);
       for (char c : lowercasedWords.toCharArray()) {
          if ("aeiou".indexOf(c) != -1) {
             vowels++;
