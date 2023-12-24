@@ -11,7 +11,6 @@ public class fesyenOnlineStore {
       
       int regionChoose = 0;
 
-      // Dia milih dari sini ( Dia masuk circuit )
       System.out.println("Choose your region\n1.East Malaysia 2.West Malaysia 3.International");
       // While itu loopnya / circuitnya
       while (regionChoose != 1 || regionChoose != 2 || regionChoose != 3) {
